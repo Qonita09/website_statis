@@ -1,0 +1,268 @@
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary: rgb(255, 253, 251);
+    --bg: rgb(21, 107, 13);
+    --pink: rgb(0, 0, 0);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8%;
+    background: #144507;
+    background-color: #144507;
+    border-bottom: 1px solid #f3e9e9;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo img {
+    width: 100px;
+}
+
+.navbar .navbar-logo h3 {
+    margin-left: 1000px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav a {
+    color: var(--primary);
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--primary);
+}
+
+.navbar .navbar-nav a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+}
+
+.navdrop {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+.navdrop a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  text-align: left; 
+  margin-right: 0;
+}
+
+/*marquee*/
+marquee {
+    height: 40px;
+    width: 100%;
+    color:  rgb(20, 83, 20);
+    border: 1px solid rgb(20, 83, 20);
+    font-size: 150%;
+  }
+
+  .media img {
+    display: block;
+    margin: 0 auto;
+    width: 460px;
+    height: 360px;
+    margin-bottom: 50px;
+  }     
+
+/* Dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--bg);
+    min-width: 200px;
+    z-index: 1;
+}
+
+
+.navdrop:hover .dropdown {  
+    display: block;
+}
+
+table tr td, table tr th {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#judul {
+  background-color: rgb(0, 60, 13);
+  color: rgb(255, 246, 216);
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 50px;
+  border-bottom: 5px dotted ghostwhite;
+}
+
+body {
+  background-color: whitesmoke;
+  background: url(bc2.jpg);
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--primary);
+  min-height: 2000px;
+
+}
+
+
+.header {
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+
+
+#video {
+  display: block;
+  margin: 0 auto;
+  width: 560px;
+  height: 460px;
+}
+
+h1{
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color:rgb(223, 192, 15);
+  color: #144507;
+
+}
+
+#class {
+  display: block;
+  margin: 0 auto;
+  width: 460px;
+  height: 360px;
+  margin-bottom: 50px;
+}
+h2{
+
+font-size: 25px;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: rgb(175, 181, 0);
+
+}
+.content {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.content p {
+  color: black;
+}
+
+.content2 p, li {
+    color:black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content3 ol, li {
+    color:black;
+}
+
+.content4 ol, li {
+    color:black;
+}
+
+.content5 p {
+    color:black;
+    padding-left: 50px;
+    padding-right: 50px;
+}   
+
+.content6 {
+    color:black;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+      }
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+        
+}
+
+.content7 p {
+    color:black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content8 p, li {
+    color:black;
+    padding-left: 50px;
+    padding-right: 50px;
+}   
+
+.class{
+  width: 360px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;   
+}
+
+.footer{
+font-size: 25px;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color:rgb(223, 192, 15);
+color: #144507;
+
+}
+
+/*CSS Icon */
+.footer p {
+color: rgb(252, 252, 252);
+font-size: 16px;
+letter-spacing: 3px;
+}
+
